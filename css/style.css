@@ -104,14 +104,14 @@ section {
     background-repeat: no-repeat;
 }
 
-.slide2 {
+.slide3 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/legume.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.slide3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/piment.jpg);
+.slide2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/ong2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -227,7 +227,7 @@ text-align: center;}
 
 
 #milestone {
-    background: linear-gradient(rgba(0, 191, 99, 0.7), rgba(65, 255, 163, 0.7)), url(../img/bg_banner1.jpg);
+    background: linear-gradient(rgba(0, 191, 99, 0.7), rgba(65, 255, 163, 0.7)), url(../img/champ_manioc.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
