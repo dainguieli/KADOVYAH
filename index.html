@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en">
 
 <head>
@@ -18,9 +18,11 @@
     <title>KADOVYAH</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+<body id="" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
+  
 
+ 
     <!-- TOP NAV -->
     <div class="top-nav" id="home">
         <div class="container">
@@ -28,13 +30,14 @@
                 <div class="col-auto">
                     <p> <i class='bx bxs-envelope'></i>kadovyah@gmail.com</p>
                     <p> <i class='bx bxs-phone-call'></i> (+225) 07 01 74 70 61</p>
-                </div>
+                            </div>
                 <div class="col-auto social-icons">
                     <a href="#"><i class='bx bxl-facebook'></i></a>
                     <a href="#"><i class='bx bxl-twitter'></i></a>
                     <a href="#"><i class='bx bxl-instagram'></i></a>
 
                 </div>
+                <span class="navbar-nav mr-sm-2" id="google_translate_element"></span>
             </div>
         </div>
     </div>
@@ -42,6 +45,7 @@
     <!-- BOTTOM NAV -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
+          
             <a href="#" class="navbar-brand ms-4 ms-lg-0">
                 <div class="text-primary m-0 row">
                     <div class="col"> <img class="me-3" style="width: 7rem;" src="img/logo.jpg" alt="Icon"></div>
@@ -74,9 +78,10 @@
                         <a class="nav-link" href="#blog">ingrédients de produit</a>
                     </li>  
                      <li class="nav-item">
-                        <a class="nav-link" href="https://fr.yahjireh.org.uk/">YAHJIREH FOUNDATION</a>
+                        <a class="nav-link" href="https://fr.yahjireh.org.uk/">ONG YAHJIREH FOUNDATION</a>
                     </li>
                 </ul>
+                
                 <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
                     class="btn btn-brand ms-lg-3">Contact</a>
             </div>
@@ -123,6 +128,9 @@
         </div>
 
     </div>
+
+
+   
 <!--
     <section id="milestone">
         <div class="container">
@@ -720,6 +728,17 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    
+    <div id="google_translate_element"></div>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'fr'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="js/app.js"></script>
 </body>
 
