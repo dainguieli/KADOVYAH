@@ -510,3 +510,25 @@ input.form-control {
     box-shadow: none;
     border-color: var(--brand);
 }
+.position{
+    position:relative;
+    left: 20px;
+  
+   
+}
+@media screen and (max-width: 850px) {
+    .position{
+        left: -20px;
+        width:490px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .position{
+        left: 1px;
+        width:490p
+    }
+  
+}
+
